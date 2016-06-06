@@ -23,8 +23,7 @@ public:
 		}
 	}
 private:
-	Singleton(){ m_Test = 0; }
+	Singleton(){}
 	static Singleton *m_Instance;
-	int m_Test;
 };
 Singleton *Singleton ::m_Instance = NULL;
